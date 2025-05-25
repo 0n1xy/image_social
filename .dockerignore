@@ -1,0 +1,23 @@
+# Node modules shouldn't be copied (Docker installs them)
+node_modules
+
+# Ignore local env files
+.env
+.env.production
+.env.*
+
+# Ignore build outputs
+dist
+
+# Git
+.git
+.gitignore
+
+# OS & Editor configs
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log
